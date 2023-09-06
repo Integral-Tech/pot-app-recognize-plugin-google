@@ -39,6 +39,7 @@ pub fn recognize(
             .get("fullTextAnnotation")?
             .as_object()?
             .get("text")?
+            .as_str()?
             .to_string();
 
         Some(result)
