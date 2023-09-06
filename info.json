@@ -1,10 +1,10 @@
 {
-  "id": "[plugin].com.pot-app.ocrspace",
+  "id": "[plugin].cn.org.integral.google",
   "plugin_type": "recognize",
-  "icon": "icon.png",
-  "display": "OCR Space",
-  "homepage": "https://github.com/pot-app/pot-app-recognize-plugin-template",
-  "needs": [{ "key": "apikey", "display": "Api Key" }],
+  "icon": "google-cloud.png",
+  "display": "Google OCR",
+  "homepage": "https://github.com/Integral-Tech/pot-app-recognize-plugin-google",
+  "needs": [{ "key": "api_key", "display": "API 密钥" }],
   "language": {
     "auto": "",
     "zh_cn": "",
