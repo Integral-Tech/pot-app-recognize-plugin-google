@@ -6,7 +6,7 @@ pub fn recognize(
     base64: &str,                   // Base64 Code of the Image
     lang: &str,                     // Language
     needs: HashMap<String, String>, // Other arguments defined in info.json
-) -> Result<String, Box<dyn Error>> {
+) -> Result<Value, Box<dyn Error>> {
     let client = reqwest::blocking::ClientBuilder::new().build()?;
     let api_key = match needs.get("api_key") {
         Some(api_key) => api_key.to_string(),
@@ -46,7 +46,7 @@ pub fn recognize(
     }
 
     if let Some(result) = parse_result(res) {
-        Ok(result)
+        Ok(Value::String(result))
     } else {
         Err("Response Parse Error".into())
     }
