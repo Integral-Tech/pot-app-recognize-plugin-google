@@ -13,4 +13,4 @@ SPDX-License-Identifier: GPL-3.0-or-later
 - 免费额度每月 1000 次
 
 ## 许可证
-- 本软件使用 [GNU 通用公共许可证 (GPL), 版本 3 或更新版本](https://codeberg.org/Integral/pot-app-recognize-plugin-google/src/branch/main/LICENSES/GPL-3.0-or-later.txt) 授权。
+- 本软件使用 [GNU 通用公共许可证 (GPL), 版本 3 或更新版本](LICENSES/GPL-3.0-or-later.txt) 授权。
