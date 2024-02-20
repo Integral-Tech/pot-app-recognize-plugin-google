@@ -11,3 +11,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
 - API key needed
 - For tutorial of API key application, see [here](https://bobtranslate.com/service/ocr/google.html) (MasterCard / VISA card needed)
 - 1,000 units per month for free
+
+## License
+- Licensed under the [GNU General Public License, version 3 or any later version](https://codeberg.org/Integral/pot-app-recognize-plugin-google/src/branch/main/LICENSES/GPL-3.0-or-later.txt).
