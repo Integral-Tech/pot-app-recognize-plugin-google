@@ -6,7 +6,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 
 # Google OCR Plugin for Pot App 
 
-[中文](https://github.com/Integral-Tech/pot-app-recognize-plugin-google) | English
+[中文](README.md) | English
 
 - API key needed
 - For tutorial of API key application, see [here](https://bobtranslate.com/service/ocr/google.html) (MasterCard / VISA card needed)
