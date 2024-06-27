@@ -1,5 +1,5 @@
 {
-  "id": "[plugin].cn.org.integral.google",
+  "id": "plugin.cn.org.integral.google",
   "plugin_type": "recognize",
   "icon": "google-cloud.png",
   "display": "Google OCR",
