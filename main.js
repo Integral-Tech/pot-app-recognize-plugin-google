@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 integral@member.fsf.org
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 async function recognize(base64, lang, options) {
   const { config, utils } = options;
   const { tauriFetch: fetch } = utils;
